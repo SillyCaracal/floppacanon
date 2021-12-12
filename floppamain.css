@@ -1,0 +1,173 @@
+/*COLOUR PALETTE:#e0e2e4 #c6bcb6 #96897f #625750*/
+body {
+    /*hur sidans bakgrund ska se ut*/
+    background: #c6bcb6;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #625750;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #625750;
+    font-family: 'Schoolbell', cursive;
+    font-size: 34px;
+}
+
+h3 {
+    color: #625750;
+    font-family: 'Schoolbell', cursive;
+}
+
+a {
+    color: #625750;
+    font-family: 'Schoolbell', cursive;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.poetry {
+    /*typsnitt för dikterna*/
+    font-family: 'Gwendolyn', cursive;
+    font-size: 18px;
+    line-height: 150%;
+    color: #625750;
+    font-weight: 200px;
+}
+
+.schoolbell {
+    /*vanligt typsnitt*/
+    font-family: 'Schoolbell', cursive;
+    font-size: 14px;
+    line-height: 150%;
+    color: #96897f;
+}
+
+
+.floatbild {
+    /*bild som flyter till höger*/
+    float: right;
+    width: 170px;
+}
+
+.floatbild2 {
+    /*porträttbild med rundad yta*/
+    float: right;
+    width: 170px;
+    border-radius: 20px;
+}
+
+.section {
+    width: 80%;
+    margin: auto;
+}
+
+.textdiv {
+    /*divbox för text*/
+    width: 90%;
+    background-color: #e0e2e4;
+    min-height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+.ilblock {
+    /*för divboxar som är inline-block*/
+    width: 43%;
+    background-color: #e0e2e4;
+    min-height: 250px;
+    border-radius: 20px;
+    border-color: #96897f;
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.ilblock2 {
+    width: 30%;
+    /* gör bredden mindre än det förra ilblocket*/
+    background-color: #e0e2e4;
+    min-height: 250px;
+    border-radius: 20px;
+    border-color: #96897f;
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.center {
+    /*texten centreras*/
+    text-align: center;
+}
+
+.textright {
+    /*texten till höger*/
+    float: right;
+}
+
+
+.galleryimg {
+    /*jämnstora och centrerade galleribilder*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 450px;
+    border-radius: 69px;
+    border-color: #96897f;
+    border-style: solid;
+}
+
+.infoimg {
+    /*bild i ilblock*/
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+nav ul {
+    /*lista i navigation*/
+    list-style-type: none;
+}
+
+nav li {
+    /*listobjekt i navigation*/
+    display: inline;
+    margin-left: 15px;
+}
+
+@media only screen and (min-width:601px) and (max-width:800px) {
+    nav a {
+        font-size: 16px;
+    }
+
+    /* länktext blir mindre */
+    body {
+        background-color: green;
+    }
+
+}
+
+@media only screen and (min-width:50px) and (max-width:600px) {
+    nav li {
+        display: block;
+    }
+
+    /* länkarna hamnar under varandra */
+    body {
+        background-color: red;
+    }
+
+}
